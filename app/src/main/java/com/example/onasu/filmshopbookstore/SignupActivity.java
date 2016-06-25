@@ -44,7 +44,13 @@ public class SignupActivity extends AppCompatActivity {
         } else {
             // no Space
 
+            uploaduserToserver();
+
         }
 
     } //ClickSign
+
+    private void uploaduserToserver() {
+
+    }
 }   // Mainclass
