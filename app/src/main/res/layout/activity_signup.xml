@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.onasu.filmshopbookstore.SignupActivity">
+    tools:context="com.example.onasu.filmshopbookstore.SignupActivity"
+    android:background="@drawable/bg11">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +17,8 @@
         android:id="@+id/textView"
         android:textIsSelectable="false"
         android:textSize="@dimen/h1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text" />
 
     <Button
         android:layout_width="match_parent"
@@ -24,7 +26,8 @@
         android:text="@string/signup"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
-        android:textSize="@dimen/h2" />
+        android:textSize="@dimen/h2"
+        android:onClick="clickSignin" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -37,7 +40,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:layout_alignParentTop="false"
-        android:layout_alignParentBottom="false">
+        android:layout_alignParentBottom="false"
+        android:background="#82ffffff">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -50,14 +54,17 @@
                 android:text="USER"
                 android:id="@+id/textView2"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text"
+                android:inputType="text" />
 
         </LinearLayout>
 
@@ -72,14 +79,17 @@
                 android:text="Password"
                 android:id="@+id/textView3"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText2"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text"
+                android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -93,14 +103,17 @@
                 android:text="Name"
                 android:id="@+id/textView4"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText3"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text"
+                android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,14 +127,17 @@
                 android:text="Address"
                 android:id="@+id/textView5"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText4"
                 android:textSize="@dimen/h2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text"
+                android:inputType="text" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
